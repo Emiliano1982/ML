@@ -39,3 +39,13 @@ header .burguer i{
     border-radius: 6px;
     font-size: var(--titulares);
 }
+
+/* Tablet */
+@media(min-width:461px){
+    header .links{
+        display: block;
+    }
+    header .burguer{
+        display: none;
+    }
+}
