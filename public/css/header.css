@@ -19,6 +19,9 @@ header p{
     margin: 20px 0;
     text-align: center;
 }
+header .links{
+    display: none;
+}
 header .links ul{
     margin: 0 0 20px ;
 }
