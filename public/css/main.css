@@ -1,12 +1,13 @@
 main{
-    width: 100%;
-    margin: 0 auto;  
-     
+    width: 90%;
+    margin: 0 auto;      
+}
+body{
+    background-color: var(--grisClaro);
+
 }
 main .banner {
-    display: none;
-
-    
+    display: none;   
     
 }
 main section{
@@ -44,6 +45,9 @@ font-size: var(--precios);
 main section article .descuento{
     color:var(--verde);
     font-size: var(--descuentosYdescripciones);
+}
+main section article .precio, .descuento{
+display: inline-block;
 }
 main section article h4{
     display: none;
